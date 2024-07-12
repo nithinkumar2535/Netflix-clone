@@ -1,0 +1,36 @@
+.acco-section{
+    background: #000;
+    color: #fff;
+    padding: 50px 5%;
+}
+.acco-section h1{
+    font-size:50px;
+    font-weight: 900;
+}
+.accordion-button.collapsed::after {
+    background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-plus" viewBox="0 0 16 16"%3E%3Cpath d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"%3E%3C/path%3E%3C/svg%3E');
+}
+.accordion-flush{
+    padding: 10px 100px;
+}
+.accordion-header{
+    height: 90px;    
+}
+.accordion-header button{
+    height:91px;
+    font-size: 20px;
+    background-color: rgb(45, 45, 45);
+    color: rgb(256,256,256);
+
+}
+.accordion-item{
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+.accordion-body{
+      background-color: rgb(45, 45, 45);
+      color: rgb(256,256,256);
+}
+
+
+
