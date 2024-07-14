@@ -1,7 +1,7 @@
 import React from 'react'
-import '../SectionThree/SectionThree.css'
+import './HomeSecFour.css'
 
-function SectionThree() {
+function HomeSecFour() {
   return (
     <div className="section3 mt-2">
       <div className="row">
@@ -26,4 +26,4 @@ function SectionThree() {
   );
 }
 
-export default SectionThree
+export default HomeSecFour;

@@ -95,15 +95,15 @@ function Accordian() {
               className="accordion-button collapsed"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseThree"
+              data-bs-target="#flush-collapseFour"
               aria-expanded="false"
-              aria-controls="flush-collapseThree"
+              aria-controls="flush-collapseFour"
             >
               How do i cancel?
             </button>
           </h2>
           <div
-            id="flush-collapseThree"
+            id="flush-collapseFour"
             className="accordion-collapse collapse"
             data-bs-parent="#accordionFlushExample"
           >
@@ -121,15 +121,15 @@ function Accordian() {
               className="accordion-button collapsed"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseThree"
+              data-bs-target="#flush-collapseFive"
               aria-expanded="false"
-              aria-controls="flush-collapseThree"
+              aria-controls="flush-collapseFive"
             >
               What can i watch on Netflix?
             </button>
           </h2>
           <div
-            id="flush-collapseThree"
+            id="flush-collapseFive"
             className="accordion-collapse collapse"
             data-bs-parent="#accordionFlushExample"
           >
@@ -146,15 +146,15 @@ function Accordian() {
               className="accordion-button collapsed"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseThree"
+              data-bs-target="#flush-collapseSix"
               aria-expanded="false"
-              aria-controls="flush-collapseThree"
+              aria-controls="flush-collapseSix"
             >
               Is Netfilx is good for kids?
             </button>
           </h2>
           <div
-            id="flush-collapseThree"
+            id="flush-collapseSix"
             className="accordion-collapse collapse"
             data-bs-parent="#accordionFlushExample"
           >
@@ -169,6 +169,13 @@ function Accordian() {
           </div>
         </div>
       </div>
+      <p className="login-des">
+        Ready to watch? Enter your email to create or restart your membership
+      </p>
+      <form className="login-form">
+        <input type="email" placeholder="Email adress" />
+        <button type="submit">Get Started</button>
+      </form>
     </div>
   );
 }

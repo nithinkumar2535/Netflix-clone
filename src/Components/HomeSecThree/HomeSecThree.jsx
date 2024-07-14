@@ -1,23 +1,23 @@
 import React from "react";
-import "./SectionOne.css";
+import "./HomeSecThree.css";
 
-function SectionOne() {
+function HomeSecThree() {
   return (
     <div className="section1 mt-2">
       <div className="row">
         <div className="col-lg-6 col-12 text-col align-items-lg-start">
-          <h1>Enjoy on your TV</h1>
+          <h1>Watch everywhere</h1>
           <p>
-            Watch smart on TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
-            players and more
+            Stream unlimited movies and TV shows on your phone, tablet, laptop,
+            and TV.
           </p>
         </div>
         <div className="col-lg-6 col-12 img-col">
-          <img className="img-fluid" src="/section1.png" alt="image" />
+          <img className="img-fluid" src="/section4.png" alt="image" />
         </div>
       </div>
     </div>
   );
 }
 
-export default SectionOne;
+export default HomeSecThree;

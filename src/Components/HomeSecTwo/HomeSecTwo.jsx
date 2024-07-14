@@ -1,17 +1,13 @@
-import React from 'react'
-import '../SectionTwo/SectionTwo.css'
+import React from "react";
+import "./HomeSecTwo.css";
 
-function SectionTwo() {
+function HomeSecTwo() {
   return (
     <div className="section2 mt-2">
       <div className="row">
         <div className="col-lg-6 col-12 image-col">
-          <div className='images'>
-            <img
-              className='mobile-img'
-              src="./mobile.png"
-              alt=""
-            />
+          <div className="images">
+            <img className="mobile-img" src="./mobile.png" alt="" />
             <div className="download-box">
               <img
                 src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png"
@@ -27,7 +23,7 @@ function SectionTwo() {
                 <i class="fa-solid fa-arrow-down"></i>
               </div>
             </div>
-          </div> 
+          </div>
         </div>
         <div className="col-lg-6 col-12 txt-col align-items-lg-start">
           <h1>Download your shows to watch offline</h1>
@@ -38,4 +34,4 @@ function SectionTwo() {
   );
 }
 
-export default SectionTwo
+export default HomeSecTwo;
