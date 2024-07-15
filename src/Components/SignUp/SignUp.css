@@ -1,0 +1,27 @@
+.signuppage {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/headerimage.png);
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+  position: relative;
+}
+.signuppage .cardDiv {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.signuppage input{
+    background-color: transparent;
+}
+.signuppage input:focus{
+  background-color: transparent;
+}
+.signuppage button{
+  width: 100%;
+}
+.signuppage a{
+  text-decoration: none;
+  color:white;
+}
+
+
